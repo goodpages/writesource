@@ -1,36 +1,71 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-    <meta charset="gb2312">
-    <title>分类小说素材库</title>
+
+    <meta charset="utf-8">
+
+    <title>鍒嗙被灏忚绱犳潗搴�</title>
+
     <style>
+
         .frame-container {
+
             position: fixed;
+
             top: 0;
+
             bottom: 0;
+
             width: 100%;
+
             display: flex;
+
         }
+
         #left-pane {
+
             width: 300px;
+
             height: 100%;
+
             border-right: 1px solid #ddd;
+
         }
+
         #right-pane {
+
             flex: 1;
+
             height: 100%;
+
         }
+
         iframe {
+
             border: none;
+
             width: 100%;
+
             height: 100%;
+
         }
+
     </style>
+
 </head>
+
 <body>
+
     <div class="frame-container">
+
         <iframe id="left-pane" name="left" src="temp.hhc.htm"></iframe>
+
         <iframe id="right-pane" name="content" src="chm/000022/List.htm"></iframe>
+
     </div>
+
 </body>
+
 </html>
